@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartGreenHause</title>
+</head>
+<body>
+    <div class="data_now">
+        <div class="header_data_now">  
+            <h1>Показники датчиків на даний момент:</h1>
+        </div>
+        <div class="humidity1">
+            <p>Вологість грунту: від 60%</p>
+        </div>
+        <div class="air_humidity1">
+            <p>Вологість грунту: від 60%</p>
+        </div>
+        <div class="air_temperature1">
+            <p>Вологість грунту: від 60%</p>
+        </div>
+    </div>
+
+    <div class="good_data">
+        <div class="header_good_data">  
+            <h1>Хороші показники для рослини:</h1>
+        </div>
+        <div class="humidity">
+            <p>Вологість грунту: від 60% до 70%</p>
+        </div>
+        <div class="air_humidity">
+            <p>Вологість повітря: від 55% до 65%</p>
+        </div>
+        <div class="air_temperature">
+            <p>Температура повітря: від 19* до 22*</p>
+        </div>
+    </div>
+
+    <div class="normal_data">
+        <div class="header_normal_data">  
+            <h1>Нормальні показники для рослини:</h1>
+        </div>
+        <div class="humidity">
+            <p>Вологість грунту: від 50% до 80%</p>
+        </div>
+        <div class="air_humidity">
+            <p>Вологість повітря: від 45% до 70%</p>
+        </div>
+        <div class="air_temperature">
+            <p>Температура повітря: від 17.5* до 25*</p>
+        </div>
+    </div>
+
+    <div class="bad_data">
+        <div class="header_bad_data">  
+            <h1> Погані  показники  для  рослини:</h1>
+        </div>
+        <div class="humidity">
+            <p>Вологість грунту: менше 60% або більше 70%</p>
+        </div>
+        <div class="air_humidity">
+            <p>Вологість повітря: менше 55% або більше 65%</p>
+        </div>
+        <div class="air_temperature">
+            <p>Температура повітря: менше 19* або більше 22*</p>
+        </div>
+    </div>
+    <style>
+    html{
+        background-image: url(./plants.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        opacity: 0.75;
+    }
+    .data_now{
+        background-color: rgb(105, 216, 224);
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .good_data{
+        background-color: rgb(105, 224, 123);
+        padding: 7px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 490px;
+        max-height: 500px;
+        margin: 5px;
+        float: left;
+    }
+    .normal_data{
+        background-color: rgb(224, 192, 105);
+        border-radius: 20px;
+        text-align: center; 
+        width: 510px;
+        height: 197px;
+        margin: 5px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header_normal_data{
+        font-size: 0.9em;
+    }
+    .bad_data{
+        background-color: rgb(224, 105, 105);
+        padding: 1px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 500px;
+        height: 197px;
+        margin: 5px;
+        float: right;
+    }
+    /* .humidity1{
+        background-color: rgb(224, 105, 105);
+        padding: 1px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 500px;
+        height: 197px;
+        margin: 5px;
+        float: right;
+    }
+    .air_humidity1{
+        background-color: rgb(189, 232, 80);
+        padding: 1px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 500px;
+        height: 197px;
+        margin: 5px;
+        float: right;
+    }
+    .air_temperature1{
+        background-color: rgba(129, 244, 120, 0.611);
+        padding: 1px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 500px;
+        height: 197px;
+        margin: 5px;
+        float: right;
+    } */
+    </style>
+</body>
+</html>
