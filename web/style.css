@@ -1,0 +1,52 @@
+html{
+    background-image: url(./plants.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(109, 234, 188);
+    opacity: 0.75;
+}
+.data_now{
+    background-color: rgb(105, 216, 224);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.good_data{
+    background-color: rgb(105, 224, 123);
+    padding: 7px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 490px;
+    max-height: 500px;
+    margin: 5px;
+    float: left;
+}
+.normal_data{
+    background-color: rgb(224, 192, 105);
+    border-radius: 20px;
+    text-align: center; 
+    width: 510px;
+    height: 197px;
+    margin: 5px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header_normal_data{
+    font-size: 0.9em;
+}
+.bad_data{
+    background-color: rgb(224, 105, 105);
+    padding: 1px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    height: 197px;
+    margin: 5px;
+    float: right;
+}

@@ -1,0 +1,79 @@
+html{
+    background-color: rgb(80, 47, 191);
+}
+.elements{
+    background-color: rgb(44, 25, 107);
+    float: left;
+    width: 70px;
+    height: 1000px;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+.information_picture{
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.b{
+    text-align: center;
+}
+.plant_back{
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+}
+.graph_picture{
+    width: 60px;
+    height: 60px;
+}
+.main{
+    text-align: center;
+}
+.text_vp{
+    position: absolute;
+    bottom: 645px;
+    left: 235px;
+}
+.text_tp{
+    position: absolute;
+    bottom: 555px;
+    left: 652px;
+}
+.text_vg{
+    position: absolute;
+    bottom: 421px;
+    left: 343px;
+}
+h3{
+    font-size: 1.3em;
+}
+.text{
+    background-color: rgb(68, 39, 162);
+    padding: 10px;
+    padding-left: 100px;
+    margin: 10 px;
+}
+.text1{
+    background-color: rgb(68, 39, 162);
+    padding: 10px;
+    padding-left: 100px;
+    margin: 10 px;
+    margin-top: 20px;
+}
+.button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(91, 49, 197);
+    border-radius: 6px;
+}
+.graph{
+    background-color: rgb(68, 39, 162);
+    padding: 10px;
+    padding-left: 100px;
+    margin: 10 px;
+    margin-top: 20px;
+}

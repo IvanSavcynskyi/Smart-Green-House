@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Green House </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="plant_icon.png">
+</head>
+<body>
+    <script src="eel.js "></script>
+    <div class="elements">
+        <a href="information.html"><img class="information_picture" src="447057.png" alt="information"></a>
+        <p class="b">_______</p>
+        <a href="graph.html"><img class="information_picture" src="graph.png" id="graph_picture" alt="graph"></a>
+        <p class="b">_______</p>
+        <a href="graph.html"><img class="information_picture" src="plant_icon.png" id="plant_picture" alt="graph"></a>
+    </div>
+    <div class="main">
+        <img src="plant.png" alt="plant" class="plant_back">
+        <h3 class="text_vp" id="air_humidity">ЗАВАНТАЖЕННЯ</h3>
+        <h3 class="text_tp" id="air_temperature">ЗАВАНТАЖЕННЯ</h3>
+        <h3 class="text_vg" id="humidity">ЗАВАНТАЖЕННЯ</h3>
+    </div>
+    <script>
+        async function getDataFromPython() {
+        document.getElementById('humidity').innerText  = "Вологість грунту: "+await eel.send_humidity_now()();
+        document.getElementById('air_humidity').innerText  = "Вологість повітря:  "+await eel.send_air_humidity()();
+        document.getElementById('air_temperature').innerText  = "Температура повітря: "+await eel.send_air_temperature()();
+        }
+        getDataFromPython();
+        // document.getElementById('hallo').addEventListener('click', () => { 
+        //     getDataFromPython();
+        // })
+    </script>
+</body>
+</html>
