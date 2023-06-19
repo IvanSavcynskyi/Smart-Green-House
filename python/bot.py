@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("6240813916:AAGtUCIDi_m6cjy9of4TLKEhCjbp-gjDPTU", parse_mode=None)
+bot = telebot.TeleBot("BotToken", parse_mode=None)
 
 def get_data():
     
